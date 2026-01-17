@@ -1,0 +1,139 @@
+/* Arrière-plan de la page de connexion */
+.login-body {
+    background-color: #f3f5ff; /* Bleu très pâle comme sur l'image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+}
+
+/* Logo positioning */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.logo-img {
+    height: 120px;
+    width: auto;
+}
+/*
+.brand-name {
+    color: #1e1b4b;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Carte principale */
+.login-card {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.login-card h1 {
+    color: #1e1b4b; /* Indigo foncé */
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* Boutons Sociaux */
+.social-login {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.btn-social {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-social img { width: 24px; height: 24px; }
+
+/* Séparateur "ou" */
+.divider {
+    position: relative;
+    margin: 25px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.divider span {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 0 15px;
+    color: #64748b;
+    font-size: 14px;
+}
+
+/* Formulaire */
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #475569;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #1a1a1a; /* Bordure noire épaisse comme image 5 */
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.forgot-password, .signup-link {
+    color: #e8a15f; /* Violet de l'image 2 */
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn-submit {
+    width: 100%;
+    background: #0a5be0;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.login-footer {
+    margin-top: 30px;
+    font-size: 14px;
+}
